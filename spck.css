@@ -1,0 +1,308 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    background-color: black;
+  }
+  .nav-item {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0 2em;
+    
+  }
+  .a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  }
+  .search{
+    width: 500px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .background{
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+  }
+  .inputs{
+    width: 250px;
+    height: 30px;
+  }
+  .flex-item h3 {
+    text-align: justify;
+    text-align: center;
+  }
+  .main {
+      margin: 0px 10%;
+      text-align: center;
+  }
+  body{
+    background-color: rgb(255, 0, 0);
+}
+.slide-item {
+  width: 100%;
+  text-align: center;
+  padding-top: 600px;
+  padding-bottom: 400px;
+  color: rgb(0, 136, 255);
+  background-size: cover;
+  font-size: 30px;
+}
+
+.slide-item1 {
+  background-image: url(https://static.kinhtedothi.vn/images/upload/2022/11/14/loichucngaynhagiaovietnam.jpg);
+}
+
+.slide-item2 {
+  background-image: url(https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/11/18/t2-16687475298241117683752.jpg);
+}
+.slide-item3 {
+  background-image: url(https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/dashboard/editor_upload/sEXB17vBjT4DNgAn2PhBplxXp1r4VVzH9tVmG4u1.jpg);
+}
+ .email{
+background-color: rgb(255, 255, 255);
+margin: 550px ;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 50px;
+border: 20px;
+border-radius: 5px;
+text-align:left;
+color: rgb(0, 0, 0);
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.signin{
+  margin-bottom: 20px;
+  margin-top: 23px;
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  :hover {
+      color: #fff;
+      background-color: #0b5ed7;
+      border-color: #0a58ca;
+  }
+
+}
+.a{
+  text-decoration: none;
+  display: inline;
+}
+.signup{
+  text-decoration: none;
+}
+.title{
+  text-align: center;
+}
+.input{
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+  vertical-align: baseline;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: .16px;
+  border-radius: 0;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+  background-color: #ffffff;
+  padding: 0 16px;
+  color: #161616;
+  transition: background-color 70ms cubic-bezier(.2,0,.38,.9),outline 70ms cubic-bezier(.2,0,.38,.9);  
+  :focus{
+      outline: 2px solid #0f62fe;
+      outline-offset: -2px;
+  }
+
+}
+.flex-item{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ 
+}
+.nav-item:hover {
+  background-color: blueviolet;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.button a{
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: acumin-pro, system-ui, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer address {
+  font-style: normal;
+  color: #999;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgb(33, 33, 33, 0.07);
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  .footer__addr {
+    flex: 1 0px;
+  }
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
